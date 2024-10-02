@@ -24,7 +24,7 @@ import { zip } from 'rxjs';
 })
 export class HomeComponent {
 
-  housingLocationList: HousingLocation[] = [];
+  public housingLocationList: HousingLocation[] = [];
   housingService: HousingService = inject(HousingService);
   filterdLocationList: HousingLocation[] = [];
 
